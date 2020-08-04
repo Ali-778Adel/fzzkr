@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="multiplezekr">array
+        <item>استغفر الله</item>
+        <item>سبحان الله</item>
+        <item>الحمد لله </item>
+        <item>الله اكبر</item>
+        <item>لا اله الا الله </item>
+        <item>اللهم صليى على سيدنا محمد</item>
+        <item>استغفر الله واتوب اليه</item>
+
+
+    </string-array>
+</resources>

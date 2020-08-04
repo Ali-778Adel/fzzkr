@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AzkarElSabah.Azkar_El_Sabah_Main"
+    android:background="@color/LightCyan"
+    android:orientation="vertical"
+
+    >
+  <LinearLayout
+      android:id="@+id/lout1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:weightSum="4"
+      android:layout_marginTop="10dp"
+      >
+      <TextView
+          android:id="@+id/phon_txt"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="phone"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          />
+      <EditText
+          android:id="@+id/phone_edit_txxt"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="3"
+
+
+          />
+  </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/lout1"
+        >
+        <TextView
+            android:id="@+id/msg_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="message"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/msg_edit_txxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/net_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/Peru"
+        android:layout_below="@+id/lout2"
+        android:layout_marginTop="24dp"
+
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>
